@@ -5,7 +5,7 @@ public class ReverseWordsInSentenceUsingStack {
 
         for (char c : sentence.toCharArray()) {
             if (c == ' ') {
-                if (word.length() > 0) {
+                if (!word.isEmpty()) {
                     stack.push(word.toString());
                     word.setLength(0);
                 }
@@ -13,7 +13,7 @@ public class ReverseWordsInSentenceUsingStack {
                 word.append(c);
             }
         }
-        if (word.length() > 0) {
+        if (!word.isEmpty()) {
             stack.push(word.toString());
         }
 

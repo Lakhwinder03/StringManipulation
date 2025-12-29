@@ -5,17 +5,17 @@ public class ReverseWordsInSentenceMultipleWays {
 
         System.out.println("Input : " + sentence);
         // using split method
-        System.out.println("Reverse Sentence using split : " + reverseWordsUsingSplit(sentence));
+        System.out.println("Reverse word sentence using split \t\t\t\t\t: " + reverseWordsUsingSplit(sentence));
         // using manual splitting without split method
-        System.out.println("Reverse Sentence using manually split : " + manualSplittingWithoutSplit(sentence));
-        // using stack
-        System.out.println("Reverse Sentence using Stack : " + reverseWordsUsingStack(sentence));
-        // using two pointer technique
-        System.out.println("Reverse Sentence using Two pointer technique : " + reverseWordsUsingTwoPointerTechnique(sentence));
-        // using stream API
-        System.out.println("Reverse Sentence using Stream : " + reverseWordsUsingStream(sentence));
+        System.out.println("Reverse word sentence using manually split\t\t\t: " + manualSplittingWithoutSplit(sentence));
         // using recursion
-        System.out.println("Reverse Sentence using Recursion: " + reverseWordsUsingRecursion(sentence));
+        System.out.println("Reverse word sentence using Recursion \t\t\t\t: " + reverseWordsUsingRecursion(sentence));
+        // using stack
+        System.out.println("Reverse word sentence using Stack \t\t\t\t\t: " + reverseWordsUsingStack(sentence));
+        // using two pointer technique
+        System.out.println("Reverse word sentence using Two pointer techniques\t: " + reverseWordsUsingTwoPointerTechnique(sentence));
+        // using stream API
+        System.out.println("Reverse word sentence using Stream \t\t\t\t\t: " + reverseWordsUsingStream(sentence));
     }
 
     public static String reverseWordsUsingSplit(String sentence) {
